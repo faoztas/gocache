@@ -4,7 +4,7 @@ import (
 	"os"
 	"sync"
 
-	"gocache/utils"
+	"github.com/faoztas/gocache/utils"
 )
 
 type StorageRepository interface {

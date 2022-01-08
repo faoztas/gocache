@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"gocache/utils"
+	"github.com/faoztas/gocache/utils"
 )
 
 func TestStorageRepository_SetGet(t *testing.T) {

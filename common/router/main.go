@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gocache/utils/errors"
+	"github.com/faoztas/gocache/utils/errors"
 )
 
 type Router interface {

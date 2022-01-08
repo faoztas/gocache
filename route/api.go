@@ -1,8 +1,8 @@
 package route
 
 import (
-	"gocache/common/router"
-	"gocache/di"
+	"github.com/faoztas/gocache/common/router"
+	"github.com/faoztas/gocache/di"
 )
 
 func DefineAPIRouter(router router.Router) {

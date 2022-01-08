@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"gocache/utils/errors"
+	"github.com/faoztas/gocache/utils/errors"
 )
 
 type CacheRepository interface {

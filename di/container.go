@@ -1,11 +1,11 @@
 package di
 
 import (
-	"gocache/common/router"
-	"gocache/config"
-	"gocache/controller"
-	"gocache/repository"
-	"gocache/service"
+	"github.com/faoztas/gocache/common/router"
+	"github.com/faoztas/gocache/config"
+	"github.com/faoztas/gocache/controller"
+	"github.com/faoztas/gocache/repository"
+	"github.com/faoztas/gocache/service"
 )
 
 var (

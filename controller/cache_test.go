@@ -9,11 +9,11 @@ import (
 	"net/url"
 	"testing"
 
-	"gocache/common/response"
-	"gocache/common/router"
-	"gocache/repository"
-	"gocache/service"
-	"gocache/utils"
+	"github.com/faoztas/gocache/common/response"
+	"github.com/faoztas/gocache/common/router"
+	"github.com/faoztas/gocache/repository"
+	"github.com/faoztas/gocache/service"
+	"github.com/faoztas/gocache/utils"
 )
 
 var testData = map[string]string{

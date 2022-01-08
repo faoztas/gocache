@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 
-	"gocache/common/job"
-	"gocache/common/log"
-	"gocache/common/server"
-	"gocache/config"
-	"gocache/di"
-	"gocache/route"
-	"gocache/utils/errors"
+	"github.com/faoztas/gocache/common/job"
+	"github.com/faoztas/gocache/common/log"
+	"github.com/faoztas/gocache/common/server"
+	"github.com/faoztas/gocache/config"
+	"github.com/faoztas/gocache/di"
+	"github.com/faoztas/gocache/route"
+	"github.com/faoztas/gocache/utils/errors"
 )
 
 func main() {

@@ -7,11 +7,11 @@ import (
 	"io"
 	"net/http"
 
-	"gocache/common/response"
-	"gocache/common/router"
-	"gocache/service"
-	"gocache/utils"
-	"gocache/utils/errors"
+	"github.com/faoztas/gocache/common/response"
+	"github.com/faoztas/gocache/common/router"
+	"github.com/faoztas/gocache/service"
+	"github.com/faoztas/gocache/utils"
+	"github.com/faoztas/gocache/utils/errors"
 )
 
 type CacheController interface {

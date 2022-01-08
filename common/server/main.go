@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"time"
 
-	"gocache/common/log"
-	"gocache/common/response"
-	"gocache/common/router"
-	"gocache/config"
-	"gocache/utils"
-	"gocache/utils/errors"
+	"github.com/faoztas/gocache/common/log"
+	"github.com/faoztas/gocache/common/response"
+	"github.com/faoztas/gocache/common/router"
+	"github.com/faoztas/gocache/config"
+	"github.com/faoztas/gocache/utils"
+	"github.com/faoztas/gocache/utils/errors"
 )
 
 func ListenAndServe(listenAddr string, router router.Router) {

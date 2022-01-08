@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"gocache/common/response"
+	"github.com/faoztas/gocache/common/response"
 )
 
 func TestRouter(t *testing.T) {

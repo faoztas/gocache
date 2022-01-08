@@ -9,8 +9,8 @@ import (
 	"runtime/debug"
 	"time"
 
-	"gocache/config"
-	"gocache/utils"
+	"github.com/faoztas/gocache/config"
+	"github.com/faoztas/gocache/utils"
 )
 
 type logger struct {

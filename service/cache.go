@@ -1,7 +1,7 @@
 package service
 
 import (
-	"gocache/repository"
+	"github.com/faoztas/gocache/repository"
 )
 
 type CacheService interface {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"gocache/common/log"
-	"gocache/utils/errors"
+	"github.com/faoztas/gocache/common/log"
+	"github.com/faoztas/gocache/utils/errors"
 )
 
 func Run(fn func(), delay time.Duration) {

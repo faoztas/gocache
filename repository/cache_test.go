@@ -3,7 +3,7 @@ package repository
 import (
 	"testing"
 
-	"gocache/utils"
+	"github.com/faoztas/gocache/utils"
 )
 
 var testData = map[string]string{

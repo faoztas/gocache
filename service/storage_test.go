@@ -3,8 +3,8 @@ package service
 import (
 	"testing"
 
-	"gocache/repository"
-	"gocache/utils"
+	"github.com/faoztas/gocache/repository"
+	"github.com/faoztas/gocache/utils"
 )
 
 func TestStorageService_Save(t *testing.T) {

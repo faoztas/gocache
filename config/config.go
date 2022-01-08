@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"gocache/utils"
+	"github.com/faoztas/gocache/utils"
 )
 
 var env *environment

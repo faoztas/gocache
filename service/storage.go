@@ -3,7 +3,7 @@ package service
 import (
 	"encoding/json"
 
-	"gocache/repository"
+	"github.com/faoztas/gocache/repository"
 )
 
 type StorageService interface {
