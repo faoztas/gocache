@@ -10,5 +10,4 @@ WORKDIR /app
 COPY --from=builder /app/storage.json ./storage.json
 COPY --from=builder /app/env.json ./env.json
 COPY --from=builder /app/main ./main
-EXPOSE 8000
 CMD ["./main"]

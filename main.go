@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/faoztas/gocache/common/job"
 	"github.com/faoztas/gocache/common/log"
@@ -14,7 +15,7 @@ import (
 
 func main() {
 	env := config.GetEnvironment()
-	listenAddr := fmt.Sprintf("%s:%s", env.ApplicationHost, env.ApplicationPort)
+	listenAddr := fmt.Sprintf(":%s", os.Getenv("PORT"))
 
 	err := di.ContainerStorageService.Load()
 	if err != nil {

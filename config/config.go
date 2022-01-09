@@ -11,8 +11,6 @@ import (
 var env *environment
 
 type environment struct {
-	ApplicationHost string
-	ApplicationPort string
 	FilePath        string
 	Timeout         time.Duration
 	Trace           bool

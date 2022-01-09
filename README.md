@@ -1,6 +1,14 @@
-# GoCache
+# GoCache [![Go Report Card][report-card-img]][report-card] [![Go 1.17+][go-card-img]][go-card] [![MIT license][license-card-img]][license-card]
+[report-card]: https://goreportcard.com/report/github.com/faoztas/gocache
+[report-card-img]: https://goreportcard.com/badge/github.com/faoztas/gocache
+[go-card]: https://golang.org/dl/
+[go-card-img]: https://img.shields.io/badge/go-1.17-5.svg
+[license-card]: https://opensource.org/licenses/MIT
+[license-card-img]: https://img.shields.io/badge/license-MIT-brightgreen.svg
 
 GoCache is an in-memory cache project. GoCache has an RWMutex and endless storage Job. GoCache is written with the go standard library.
+
+to try: [GoCache](https://gocache.herokuapp.com/)
 
 ### Prerequisites
 
